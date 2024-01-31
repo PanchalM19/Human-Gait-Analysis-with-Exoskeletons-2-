@@ -7,29 +7,29 @@ This project focuses on the development and optimization of mid-level control st
 
 ### Key Achievements and Steps
 1. Finite State Machine Development
-1a. Created a finite state machine representing gait states for the right leg.
-1b. Plotted gait state, ankle angle, knee angle, and vertical force to identify transition criteria.
-1c. Developed an ankle impedance controller to emulate biological ankle torque.
-1d. Verified the accuracy of the ankle impedance controller using RMSe & R-squared with biological ankle moments.
+*a. Created a finite state machine representing gait states for the right leg.
+*b. Plotted gait state, ankle angle, knee angle, and vertical force to identify transition criteria.
+*c. Developed an ankle impedance controller to emulate biological ankle torque.
+*d. Verified the accuracy of the ankle impedance controller using RMSe & R-squared with biological ankle moments.
 
  <img width="347" alt="image" src="https://github.com/PanchalM19/Human-Gait-Analysis-with-Exoskeletons-2-/assets/115374409/b25e2bfe-511f-402f-85b2-7dbc17707b07">
 
 2. Knee Impedance Controller
-Repeated steps 1c & 1d for the knee to develop and verify a knee impedance controller.
+* Repeated steps 1c & 1d for the knee to develop and verify a knee impedance controller.
 
 <img width="300" alt="image" src="https://github.com/PanchalM19/Human-Gait-Analysis-with-Exoskeletons-2-/assets/115374409/f82a4b29-bece-4204-95d0-811295652f0f">
 
 
 3. Impedance Parameter Optimization
-3a. Optimized impedance parameters for both ankle and knee controllers to minimize the error between actuator torque and biological moment.
-3b. Explored the impact of impedance parameters on different gait modes, revealing the challenge of generalizing parameters across modes.
+*a. Optimized impedance parameters for both ankle and knee controllers to minimize the error between actuator torque and biological moment.
+*b. Explored the impact of impedance parameters on different gait modes, revealing the challenge of generalizing parameters across modes.
 
 <img width="310" alt="image" src="https://github.com/PanchalM19/Human-Gait-Analysis-with-Exoskeletons-2-/assets/115374409/989cf514-f553-43bf-bd1a-b6165862fb21">
 
 
 4. High-Level Classifier
-4a. Developed a classifier to identify walking modes based on ground angle just before heel strike, adjusting early stance impedance parameters.
-4b. Explored the use of a window of data preceding heel strike (100 samples) to improve classifier performance.
+*a. Developed a classifier to identify walking modes based on ground angle just before heel strike, adjusting early stance impedance parameters.
+*b. Explored the use of a window of data preceding heel strike (100 samples) to improve classifier performance.
 
 <img width="614" alt="image" src="https://github.com/PanchalM19/Human-Gait-Analysis-with-Exoskeletons-2-/assets/115374409/1623234a-fd7d-45f5-8a39-b02b673545fc">
 
